@@ -21,21 +21,21 @@
             android:id="@+id/manage_alarms_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:fab_label="Manage Alarms"
+            app:fab_label="@string/manage_alarms"
             app:fab_size="mini" />
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/settings_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:fab_label="Settings"
+            app:fab_label="@string/settings"
             app:fab_size="mini" />
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/help_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:fab_label="Help"
+            app:fab_label="@string/help"
             app:fab_size="mini" />
 
     </com.github.clans.fab.FloatingActionMenu>
